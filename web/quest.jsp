@@ -17,7 +17,8 @@
              no <input type="radio" name="courses" value="no" /> <br>
         <br> do you attend english classes?
         <br> yes <input type="radio" name="english" value="yes" />
-             no <input type="radio" name="english" value="no" />
+             no <input type="radio" name="english" value="no" /> <br>
+        <br> <input type="submit" value="submit" />
     </form>
 </body>
 </html>
