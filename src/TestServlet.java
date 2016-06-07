@@ -10,6 +10,7 @@ public class TestServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         PrintWriter printWriter = resp.getWriter();
         printWriter.write("ololo servlet");
+        printWriter.write(System.getProperty("user.dir"));
         printWriter.flush();
         printWriter.close();
     }
